@@ -15,14 +15,7 @@
                 url    : '/sample',
                 views  : {
                     'content@app': {
-                        templateUrl: 'app/main/sample/sample.html',
-                        controller : 'SampleController as vm'
-                    }
-                },
-                resolve: {
-                    SampleData: function (msApi)
-                    {
-                        return msApi.resolve('sample@get');
+                        template: '<sample-main></sample-main>'
                     }
                 }
             });
