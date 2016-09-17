@@ -19,20 +19,16 @@
                 abstract: true,
                 views   : {
                     'main@'         : {
-                        templateUrl: 'app/core/layouts/vertical-navigation.html',
-                        controller : 'MainController as vm'
+                        templateUrl: 'app/main/main-app.html',
                     },
                     'toolbar@app'   : {
-                        templateUrl: 'app/toolbar/layouts/vertical-navigation/toolbar.html',
-                        controller : 'ToolbarController as vm'
+                        templateUrl: 'app/toolbar/toolbar.html',
                     },
                     'navigation@app': {
-                        templateUrl: 'app/navigation/layouts/vertical-navigation/navigation.html',
-                        controller : 'NavigationController as vm'
+                        templateUrl: 'app/navigation/navigation.html',
                     },
                     'quickPanel@app': {
-                        templateUrl: 'app/quick-panel/quick-panel.html',
-                        controller : 'QuickPanelController as vm'
+                        template: '',
                     }
                 }
             });

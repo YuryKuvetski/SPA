@@ -6,7 +6,7 @@
         .module('app.sample')
         .component('sampleMain', {
             restrict: 'EA',
-            controller :SampleMainController,
+            controller : SampleMainController,
             templateUrl: 'app/main/sample/sample.html'
         });
 
