@@ -20,7 +20,6 @@
             search: ''
         };
 
-        vm.bodyEl = angular.element('body');
         vm.userStatusOptions = [
             {
                 'title': 'Online',
@@ -74,7 +73,6 @@
         vm.logout = logout;
         vm.changeLanguage = changeLanguage;
         vm.setUserStatus = setUserStatus;
-        vm.toggleHorizontalMobileMenu = toggleHorizontalMobileMenu;
 
         //////////
 
@@ -155,14 +153,6 @@
 
             // Change the language
             $translate.use(lang.code);
-        }
-
-        /**
-         * Toggle horizontal mobile menu
-         */
-        function toggleHorizontalMobileMenu()
-        {
-            vm.bodyEl.toggleClass('ms-navigation-horizontal-mobile-menu-active');
         }
     }
 })();
