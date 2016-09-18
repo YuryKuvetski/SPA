@@ -5,7 +5,6 @@
     angular
         .module('app.toolbar', [])
         .component('toolbar', {
-            restrict: 'EA',
             templateUrl: 'app/toolbar/layouts/vertical-navigation/toolbar.html',
             controller: ToolbarController
         });

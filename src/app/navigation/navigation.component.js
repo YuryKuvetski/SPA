@@ -5,7 +5,6 @@
     angular
         .module('app.navigation', [])
         .component('navigation', {
-            restrict: 'EA',
             templateUrl: 'app/navigation/layouts/vertical-navigation/navigation.html',
             controller: NavigationController
         });
